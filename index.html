@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="rus">
+<head> 
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -8,10 +8,11 @@
 	<link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700,900" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700,800,900" rel="stylesheet">
 	<link rel="stylesheet" href="lib-min/bootstrap.min.css">
-	<link rel="stylesheet" href="css/main.css">
-	<title>Event4</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="https://yastatic.net/iconostasis/_/8lFaTHLDzmsEZz-5XaQg9iTWZGE.png">
+	<title>English Educ</title>
 </head>
-<body>
+<body> 
 	<div class="page">
         <div class="container">
             <div class="row">
@@ -20,14 +21,22 @@
                         <a href="https://translate.google.com/?hl=ru">Гугл переводчик</a>
                     </div>
                     <div class="wrap__answer">
-                        <h5>Слово : " Вокруг / около "</h5>
-                        <input type="text" placeholder="Введите слово">
-                        <span>Верно</span>
-                        <button>Ответить</button>
+                        <h4 id="baseWordRus">Слово : " Вокруг / около "</h4>
+                        <input type="text" placeholder="Введите слово" id="sendWord" value="">
+                        <span id="result"> &nbsp; </span>
+                        <button id="toSend">Ответить</button>
                     </div>
                     <div class="wrap__answer wrap__prompt">
-                        <h5>Английское слово</h5>
-                        <button>Подсказка</button>
+                        <h5 id="eng__word">Английское слово</h5>
+                        <button id="toHint">Подсказка</button>
+                    </div>
+                    <div class="wrap__count d-inline-flex">
+                        <div class="wrap__count-social wrap__count-true mr-auto">
+                            <i class="fas fa-check" id="count__true"> 0</i>
+                        </div>
+                        <div class="wrap__count-social wrap__count-false ml-auto">
+                            <i class="fas fa-times" id="count__false"> 0</i>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -37,5 +46,6 @@
 <script src="lib-min/bootstrap.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
 <script src="js/common.js"></script>
+<script src="js/libs.min.js"></script>
 </body>
 </html>

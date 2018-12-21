@@ -16,7 +16,7 @@
   .page .wrap {
     margin: auto;
     width: 400px;
-    height: 470px;
+    height: 510px;
     -webkit-border-radius: 5px;
             border-radius: 5px;
     background-color: #fff;
@@ -24,15 +24,16 @@
             box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.5); }
     .page .wrap__titel {
       text-align: right;
-      padding: 25px 30px; }
+      padding: 18px 30px; }
       .page .wrap__titel a {
         text-decoration: none;
         color: #4990e2; }
     .page .wrap__answer {
       padding: 10px 20px;
       font-size: 18px; }
-      .page .wrap__answer h5 {
-        margin-bottom: 30px; }
+      .page .wrap__answer h4 {
+        margin-bottom: 20px;
+        min-height: 60px; }
       .page .wrap__answer input {
         width: 100%;
         outline: none;
@@ -47,10 +48,10 @@
         border-bottom: 1px solid #ffdb4d; }
       .page .wrap__answer span {
         display: block;
-        margin-bottom: 30px;
+        margin-bottom: 25px;
         font-weight: 400;
         color: #4981d7;
-        font-size: 17px; }
+        font-size: 20px; }
       .page .wrap__answer button {
         width: 100%;
         height: 50px;
@@ -66,8 +67,18 @@
         background-color: #f6cd2a;
         cursor: pointer; }
     .page .wrap__prompt {
-      margin-top: 30px; }
+      margin-top: 25px; }
       .page .wrap__prompt h5 {
         font-weight: 400;
-        color: #11b721;
+        color: grey;
         margin-bottom: 10px; }
+    .page .wrap__count {
+      padding: 10px 20px;
+      width: 100%; }
+      .page .wrap__count-social {
+        padding: 5px 40px;
+        font-size: 20px; }
+      .page .wrap__count-true {
+        color: #11b721; }
+      .page .wrap__count-false {
+        color: red; }
