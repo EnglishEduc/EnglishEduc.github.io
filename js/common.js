@@ -1,6 +1,6 @@
 const baseWord = {
   1:{
-    rus: 'Около \ Приблизительно',
+    rus: 'Около / Приблизительно',
     eng: "About"
   },
   2:{
@@ -28,8 +28,8 @@ const baseWord = {
     eng: "Still"
   },
   8:{
-    rus: 'Еще / Все еще ',
-    eng: "Still"
+    rus: 'Ниже / Внизу ',
+    eng: "Below"
   },
   9:{
     rus: 'Иначе /  еще',
@@ -49,13 +49,38 @@ const baseWord = {
   },
   13:{
     rus: 'Изучать / исследовать',
-    eng: "Meet"
+    eng: "Study"
   },
   14:{
     rus: 'Падение ',
     eng: "Drop"
+  },
+  15:{
+    rus: 'Замещать / заменять ',
+    eng: "Replace"
+  },
+  16:{
+    rus: 'Внутри / Внутрь ',
+    eng: "Inside"
+  },
+  17:{
+    rus: 'Вставить / Вкладка ',
+    eng: "Insert"
+  },
+  18:{
+    rus: 'Между',
+    eng: "Between"
+  },
+  19:{
+    rus: 'Определять / устанавливать',
+    eng: "Define"
+  },
+  20:{
+    rus: 'Изменить / переменить',
+    eng: "Change"
   }
 }
+
 
 //глобаьная перменная
 window.rndValue = 0;
